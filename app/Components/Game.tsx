@@ -55,7 +55,7 @@ export default function Game(props:{clean: number, setClean: any, gameState: str
           props.gameState==="X"?"bg-rose-900":
           props.gameState==="O"?"bg-green-900":"bg-teal-800"}
           ${content[item] === 'X' ? "text-red-300" : "text-green-300"}
-          font-bold text-7xl text-center`}
+          font-bold sm:text-7xl text-5xl text-center`}
           onClick={() => {
             
             if (content[item] === '' && props.gameState === '') {

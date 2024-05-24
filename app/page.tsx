@@ -10,12 +10,12 @@ export default function Home() {
   return (
     <div className="flex items-center justify-center flex-col w-screen h-screen">
       
-      <h1 className="font-bold text-4xl">Tic Tac Toe with Karim</h1>
+      <h1 className="font-bold sm:text-4xl text-xl">Tic Tac Toe with Karim</h1>
       <Game clean = {empty} setClean={setEmpty} gameState={gameState} setGameState = {setGameState}/> 
-      <button className="w-[200px] h-[80px] bg-fuchsia-900 rounded-md text-3xl font-bold text-fuchsia-100" 
+      <button className="sm:w-[200px] sm:h-[80px] w-[170px] h-[70px] bg-fuchsia-900 rounded-md text-3xl font-bold text-fuchsia-100" 
           onClick={()=>{setEmpty(1); setGameState("");}}>Reset</button>
       
-      <h1 className="font-bold text-5xl mt-5 w-[800px] h-[80px] flex items-center justify-center">{
+      <h1 className="font-bold sm:text-5xl text-3xl mt-5 w-[800px] h-[80px] flex items-center justify-center">{
         gameState==='' ? '': gameState==="D" ? 'DRAW !' : gameState === 'X' ? 
           <div className="flex gap-3">Player <h1 className="text-red-500"> X </h1>Wins !</div> : 
           <div className="flex gap-3">Player <h1 className="text-green-500"> O </h1>Wins !</div>
