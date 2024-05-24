@@ -43,7 +43,7 @@ export default function Game(props:{clean: number, setClean: any, gameState: str
 
   
   return (
-    <div className={`m-5 grid grid-cols-3 grid-rows-3 w-[500px] h-[500px] rounded-lg gap-3 p-3
+    <div className={`my-5 mx-auto grid grid-cols-3 grid-rows-3 md:w-[500px] md:h-[500px] w-[300px] h-[300px] rounded-lg gap-3 p-3
     ${props.gameState==="D"?"bg-gray-800":
     props.gameState==="X"?"bg-  bg-rose-950":
     props.gameState==="O"?"bg-green-950":"bg-teal-950"}
