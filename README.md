@@ -11,7 +11,7 @@ I've built a web application using Next.js and Tailwind CSS that allows players 
 
 ## Getting Started
 
-Here is the link to the project : [https://calculator-two-topaz-64.vercel.app/](https://calculator-five-wheat-57.vercel.app/)
+Here is the link to the project : [https://calculator-two-topaz-64.vercel.app/](https://calculator-five-wheat-57.vercel.app/)](https://tic-tac-toe-seven-virid.vercel.app/)
 
 To run this project locally, follow these steps:
 
